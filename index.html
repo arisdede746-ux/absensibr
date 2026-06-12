@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AbsensiBRJ</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="login-box" id="loginBox">
+    <h2>Login Admin</h2>
+    <input type="text" id="username" placeholder="Username">
+    <input type="password" id="password" placeholder="Password">
+    <button onclick="login()">Login</button>
+</div>
+
+<div class="container" id="app" style="display:none;">
+    <h2>ABSENSI BRJ</h2>
+
+    <input type="text" id="nama" placeholder="Nama Orang">
+    <button onclick="tambahAbsen()">Tambah</button>
+
+    <div id="list"></div>
+</div>
+
+<script type="module" src="script.js"></script>
+</body>
+</html>
